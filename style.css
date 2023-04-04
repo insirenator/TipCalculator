@@ -46,6 +46,11 @@ body {
 	justify-content: space-between;
 }
 
+#tip-slider {
+	margin-right: auto;
+	margin-left: 5px;
+}
+
 #tip-perc {
 	color: rgba(255, 255, 255, 0.4);
 }
