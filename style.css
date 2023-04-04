@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Bebas+Neue&display=swap');
+
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+	padding: 15px 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #111;
+	color: white; 
+}
+
+.input-section {
+	margin: 50px 0; 
+}
+
+.field {
+	background-color: rgba(255, 255, 255, 0.08);
+	color: white;
+	height: 35px;
+	padding: 15px;
+	margin: 10px 0;
+	border: none;
+	border-bottom: 2px solid white;
+}
+.field:focus {
+	outline: none;
+	border-color: #5e18db;
+}
+
+#error {
+	font-size: 12px;
+	color: #e03232;
+}
+
+.tip-section {
+	display: flex;
+	margin-top: 20px;
+	justify-content: space-between;
+}
+
+#tip-perc {
+	color: rgba(255, 255, 255, 0.4);
+}
+
+.output-section {
+	display: flex;
+	justify-content: space-between;
+}
+
+.output-section > .sub-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid white;
+	border-radius: 10px;
+	margin: 10px;
+	padding: 10px;
+	min-width: 150px;
+	background-color: rgba(255, 255, 255, 0.08);
+}
+
+.sub-section > h4 {
+	font-size: 14px;
+	font-weight: normal;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.sub-section > p {
+	font-family: 'Bebas Neue';
+	font-size: 50px;
+	font-weight: bold;
+}

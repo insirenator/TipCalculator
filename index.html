@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Tip Calculator</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1 id="title">Tip Calculator</h1>
+
+	<section class="input-section">
+		<p>Amount</p>
+		<input type="text" name="amount" inputmode="numeric" class="field" placeholder="Enter Amount">
+		<p id="error">Invalid Amount</p>
+
+		<div class="tip-section">
+			<label>Tip (%)</label>
+			<input type="range" name="tip_perc" min="1" max="100" value="10" id="tip-slider" disabled>
+			<h3 id="tip-perc">10%</h3>
+		</div>
+	</section>
+
+	<section class="output-section">
+		<div class="sub-section">
+			<h4>Tip Amount</h4>
+			<p id="tip">0</p>
+		</div>
+		<div class="sub-section">
+			<h4>Total Amount</h4>
+			<p id="total">0</p>
+		</div>
+	</section>
+	<script type="text/javascript" src="./app.js"></script>
+</body>
+</html>
