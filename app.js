@@ -7,7 +7,7 @@ const totalAmount = document.querySelector('#total');
 const errorMsg = document.querySelector('#error');
 errorMsg.style.display = "none";
 
-amount.addEventListener('blur', () => {
+amount.addEventListener('change', () => {
 	if(!isNaN(parseFloat(amount.value))) {
 		tipSlider.disabled = false;
 		errorMsg.style.display = "none";
